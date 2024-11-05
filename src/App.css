@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.option-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.option-buttons a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.option-buttons a:hover {
+  background-color: #555;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+div label {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.create-button {
+  margin-top: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 100px;
+}
+
+.guardian-card {
+  border-style: solid;
+  padding: 50px;
+}
+
+.e-d, .update-button, .home-button{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.guardian-button, button, a {
+  color:white;
+
+}
+
+.guardian-button:hover {
+  color: rgb(202, 202, 202); 
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.info div {
+  font-size: 30px;
+}
+
